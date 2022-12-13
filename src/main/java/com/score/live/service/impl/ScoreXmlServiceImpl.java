@@ -47,7 +47,7 @@ public class ScoreXmlServiceImpl implements ScoreXmlService {
     }
 
 
-    @Scheduled(initialDelayString = "1000", fixedDelayString = "300000")
+    //@Scheduled(initialDelayString = "1000", fixedDelayString = "300000")
     public void getLiveScore(){
         log.info("..........scheduler running............");
 

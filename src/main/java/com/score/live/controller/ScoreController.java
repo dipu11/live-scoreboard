@@ -72,4 +72,10 @@ public class ScoreController {
 
         return new ResponseEntity<>(scores, HttpStatus.OK);
     }
+
+    @GetMapping("/test")
+    public ResponseEntity testString(){
+        log.info("Security testing!");
+        return new ResponseEntity<>("Security testing: processing", HttpStatus.OK);
+    }
 }
