@@ -1,5 +1,12 @@
 # Live Score Dashboard
 
+=====================================================
+-  This is a dummy project. Basic auth implemented on `basic-auth-impl` branch
+# Target
+-   Fetch record from this link: `http://static.cricinfo.com/rss/livescores.xml` and insert into database, 
+-   check for duplicate records
+-   insert via a schedular which runs in five mins interval
+
 # Setup:
 - Java-1.8
 - Maven- 3.8.6
